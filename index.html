@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.css">
+  <link rel="stylesheet"href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <title>My Phone Book</title>
+</head>
+
+<body>
+
+  <div class="container">
+  
+  <h1 class="center-align" id="htitle">
+<i class="fas fa-address-book fa-lg text-blue"></i> My<span class="text-blue">Phone</span>Book</h1>
+      
+    </h1>	
+    <i class="fas fa-search"></i>	<input type="text" id="filterInput" placeholder="Search a contact...">
+
+	<!-- Add a Contact--> 
+	  <div class="quickadd">
+	    <button id="QuickAdd" class="waves-effect blue darken-2 btn">+ Add New Contact</button>
+	   </div>
+		<div class ="quickaddForm">
+		    <form id="book-form">
+				  <div class="form-group">
+					<input type="text" id="name" placeholder="Add a name" class="form-control">
+				</div>	
+				<div class="form-group">
+					<input type="text" id="phone" placeholder="Add a phone number" class="form-control">
+				</div>	
+					<input type="submit" id="Add" value="Add Contact" class="waves-effect blue darken-2 btn">
+					<input type="button" id="Cancel" value="Cancel" class="waves-effect blue darken-2 btn">
+			<form>
+      </div>
+      <div id= "contact-items">
+	   <ul id="names" class="collection with-header">
+	   <!--  
+      <li class="collection-header">
+        <h5>A</h5>
+      </li>
+      <li class="collection-item">
+     
+        
+  <a href="#"><i class="fas fa-user"></i>Abe</a>
+  
+      <i class="fas fa-phone">+40 726998877</i>
+         
+	
+	</div>
+	</li>
+	</ul>
+    -->  
+	</div>
+
+  </div>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

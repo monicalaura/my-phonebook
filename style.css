@@ -1,0 +1,206 @@
+li .collection-item {
+  display:none;
+}
+
+.container{
+	margin-top:6rem;
+	
+}
+
+body{
+min-height:100vh;
+}
+
+
+h1{
+  font-size:2.5em;
+  text-align:center;
+} 
+  
+  .fa, .fas { 
+	  color:#9e9e9e;
+	  font-weight:600;
+  }
+  
+  .quickaddForm{
+	  display:none;
+  }
+  
+  .text-blue{
+	  color:#1976D2;
+  }
+  h1.fa{
+	  margin-right:10px;
+  }
+
+  .quickaddForm{
+	  display:none;
+  }
+  
+  form{
+	  margin-bottom:3rem;
+  }
+  
+  
+  .alert {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+ 
+}
+
+  
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+#names{
+	margin-top: 5rem;
+	
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]){
+	
+	border-bottom: 1px solid #1976D2;
+    box-shadow: 0 1px 0 0 #1976D2;
+}
+.collection-item{
+	font-size:1.1rem;
+	position:relative;
+}
+
+.ph{
+	padding-left:0.5rem;
+	font-weight:500;
+	}
+	
+	
+.fas .fa-phone .text-blue .phi  {
+	position:relative;
+}
+
+.text-grey {
+	color:#616161;
+}
+
+.collection-item .fas{
+	margin-right:0.5rem;
+	color:#424242;
+  
+}
+
+.collection-item  button{
+	width:2rem;
+	height:2rem;
+	text-align:center;
+	
+}
+.collection-item .delete{
+	color:#e53935;
+	position:absolute;
+	right:7px;
+	cursor:pointer;
+}
+
+.collection-item .delete :hover{
+	color:#f44336;
+}
+
+
+
+@media (min-width: 768px){
+.collection-item a{
+	margin-right:60px;	
+}
+.container{
+	width:70%;
+	margin:0 auto;
+}
+
+.fa-phone:before {
+	position:absolute;
+	left: 20rem;
+	bottom: 0.6rem;
+}
+
+ .ph {
+	position:absolute;
+	left: 22rem;
+	bottom: 0.6rem;
+}
+
+
+}
+
+@media (max-width:700px){
+	.contact-phone {
+    position: relative;
+    display:block;
+	text-align:left;
+	line-height:10px;
+	padding: 7px 0;
+}
+.collection-item .delete{
+	margin-top: -25px;
+}
+
+.container{width:100%}	
+}
+
+@media (min-width:769px)and(max-width: 1199px){
+
+.fa-phone:before {
+	position:absolute;
+	left: 25rem;
+	bottom: 0.6rem;
+}
+
+ .ph {
+	position:absolute;
+	left: 27rem;
+	bottom: 0.6rem;
+}
+
+
+.container{
+	width:100%;
+}	
+	
+}
+
+
+@media (min-width: 1200px){
+	
+.fa-phone:before {
+	position:absolute;
+	left: 25rem;
+	bottom: 0.6rem;
+}
+
+ .ph {
+	position:absolute;
+	left: 27rem;
+	bottom: 0.6rem;
+}
+.contact-phone {
+	
+	margin-top:-7px;
+}	
+
+.container{
+	width:50%;
+	margin:0 auto;
+}
+	
+}
